@@ -1,0 +1,113 @@
+[
+    {
+        "location": {
+            "area": "九州",
+            "prefecture": "福岡県",
+            "district": "筑後地方",
+            "city": "久留米"
+        },
+        "forecasts": [
+            {
+                "date": "2026-07-03",
+                "dateLabel": "今日",
+                "telop": "晴れ",
+                "image": {
+                    "title": "晴れ",
+                    "url": "https://images.icon-icons.com/799/PNG/512/sunny512x512-01_icon-icons.com_65775.png"
+                }
+            },
+            {
+                "date": "2026-07-04",
+                "dateLabel": "明日",
+                "telop": "曇り",
+                "image": {
+                    "title": "曇り",
+                    "url": "https://images.icon-icons.com/799/PNG/512/rainnyday_icon-icons.com_65778.png"
+                }
+            },
+            {
+                "date": "2026-07-05",
+                "dateLabel": "明日",
+                "telop": "晴れのち雨",
+                "image": {
+                    "title": "晴れのち雨",
+                    "url": "https://images.icon-icons.com/799/PNG/512/lightrain-01_icon-icons.com_65785.png"
+                }
+            }
+        ]
+    },
+    {
+        "location": {
+            "area": "近畿",
+            "prefecture": "大阪府",
+            "district": "大阪地方",
+            "city": "大阪"
+        },
+        "forecasts": [
+            {
+                "date": "2026-07-03",
+                "dateLabel": "今日",
+                "telop": "曇り",
+                "image": {
+                    "title": "曇り",
+                    "url": "https://images.icon-icons.com/799/PNG/512/rainnyday_icon-icons.com_65778.png"
+                }
+            },
+            {
+                "date": "2026-07-04",
+                "dateLabel": "明日",
+                "telop": "晴れ",
+                "image": {
+                    "title": "晴れ",
+                    "url": "https://images.icon-icons.com/799/PNG/512/sunny512x512-01_icon-icons.com_65775.png"
+                }
+            },
+            {
+                "date": "2026-07-05",
+                "dateLabel": "明日",
+                "telop": "晴れのち雨",
+                "image": {
+                    "title": "晴れのち雨",
+                    "url": "https://images.icon-icons.com/799/PNG/512/lightrain-01_icon-icons.com_65785.png"
+                }
+            }
+        ]
+    },
+    {
+        "location": {
+            "area": "関東",
+            "prefecture": "東京都",
+            "district": "東京地方",
+            "city": "東京"
+        },
+        "forecasts": [
+            {
+                "date": "2026-07-03",
+                "dateLabel": "今日",
+                "telop": "雨のち曇",
+                "image": {
+                    "title": "雨のち曇",
+                    "url": "https://images.icon-icons.com/799/PNG/512/cloudy-havyrain_icon-icons.com_65781.png"
+                }
+            },
+            {
+                "date": "2026-07-04",
+                "dateLabel": "明日",
+                "telop": "曇り",
+                "image": {
+                    "title": "曇り",
+                    "url": "https://images.icon-icons.com/799/PNG/512/rainnyday_icon-icons.com_65778.png"
+                }
+            },
+            {
+                "date": "2026-07-05",
+                "dateLabel": "明日",
+                "telop": "晴れ",
+                "image": {
+                  "title": "晴れ",
+                  "url": "https://images.icon-icons.com/799/PNG/512/sunny512x512-01_icon-icons.com_65775.png"
+                }
+            }
+        ]
+    }
+]

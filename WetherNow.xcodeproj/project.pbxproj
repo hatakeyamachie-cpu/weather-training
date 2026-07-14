@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F5DC0449300084320033C5CE /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F5DC0448300084320033C5CE /* SDWebImageSwiftUI */; };
+		F5DC044C300085AF0033C5CE /* SDWebImageSVGCoder in Frameworks */ = {isa = PBXBuildFile; productRef = F5DC044B300085AF0033C5CE /* SDWebImageSVGCoder */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F5366F0B2FF784B70074046C /* WetherNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WetherNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5DC0449300084320033C5CE /* SDWebImageSwiftUI in Frameworks */,
+				F5DC044C300085AF0033C5CE /* SDWebImageSVGCoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,8 @@
 			);
 			name = WetherNow;
 			packageProductDependencies = (
+				F5DC0448300084320033C5CE /* SDWebImageSwiftUI */,
+				F5DC044B300085AF0033C5CE /* SDWebImageSVGCoder */,
 			);
 			productName = WetherNow;
 			productReference = F5366F0B2FF784B70074046C /* WetherNow.app */;
@@ -94,6 +103,10 @@
 			);
 			mainGroup = F5366F022FF784B70074046C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F5DC0447300084320033C5CE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				F5DC044A300085AF0033C5CE /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F5366F0C2FF784B70074046C /* Products */;
 			projectDirPath = "";
@@ -328,6 +341,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5DC0447300084320033C5CE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.4;
+			};
+		};
+		F5DC044A300085AF0033C5CE /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSVGCoder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5DC0448300084320033C5CE /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5DC0447300084320033C5CE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		F5DC044B300085AF0033C5CE /* SDWebImageSVGCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5DC044A300085AF0033C5CE /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */;
+			productName = SDWebImageSVGCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5366F032FF784B70074046C /* Project object */;
 }

@@ -6,12 +6,21 @@
 //
 
 import SwiftUI
+import SDWebImage
+import SDWebImageSVGCoder
 
 @main
 struct WetherNowApp: App {
+  @State private var modelData = ModelData()
+  init() {
+          SDImageCodersManager.shared.addCoder(SDImageSVGCoder.shared)
+      }
+  
+  
     var body: some Scene {
         WindowGroup {
             ContentView()
+            .environment(modelData)
         }
     }
 }
