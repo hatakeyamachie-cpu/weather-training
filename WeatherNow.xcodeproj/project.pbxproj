@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F59CE52F3008C7BE00F6D1F4 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE5283008C7BE00F6D1F4 /* WeatherRow.swift */; };
+		F59CE5303008C7BE00F6D1F4 /* WeatherNowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE52D3008C7BE00F6D1F4 /* WeatherNowApp.swift */; };
+		F59CE5313008C7BE00F6D1F4 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE5253008C7BE00F6D1F4 /* FavoriteButton.swift */; };
+		F59CE5323008C7BE00F6D1F4 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE5203008C7BE00F6D1F4 /* WeatherData.swift */; };
+		F59CE5333008C7BE00F6D1F4 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE51F3008C7BE00F6D1F4 /* ModelData.swift */; };
+		F59CE5343008C7BE00F6D1F4 /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE5273008C7BE00F6D1F4 /* WeatherDetail.swift */; };
+		F59CE5353008C7BE00F6D1F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE52A3008C7BE00F6D1F4 /* ContentView.swift */; };
+		F59CE5363008C7BE00F6D1F4 /* WeatherFecher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE51D3008C7BE00F6D1F4 /* WeatherFecher.swift */; };
+		F59CE5373008C7BE00F6D1F4 /* AreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE5243008C7BE00F6D1F4 /* AreaRow.swift */; };
+		F59CE5383008C7BE00F6D1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59CE52C3008C7BE00F6D1F4 /* Assets.xcassets */; };
+		F59CE5393008C7BE00F6D1F4 /* wetherData.json in Resources */ = {isa = PBXBuildFile; fileRef = F59CE5223008C7BE00F6D1F4 /* wetherData.json */; };
 		F5DC0449300084320033C5CE /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F5DC0448300084320033C5CE /* SDWebImageSwiftUI */; };
 		F5DC044C300085AF0033C5CE /* SDWebImageSVGCoder in Frameworks */ = {isa = PBXBuildFile; productRef = F5DC044B300085AF0033C5CE /* SDWebImageSVGCoder */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F5366F0B2FF784B70074046C /* WetherNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WetherNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5366F0B2FF784B70074046C /* WeatherNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59CE51D3008C7BE00F6D1F4 /* WeatherFecher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherFecher.swift; sourceTree = "<group>"; };
+		F59CE51F3008C7BE00F6D1F4 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F59CE5203008C7BE00F6D1F4 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		F59CE5223008C7BE00F6D1F4 /* wetherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wetherData.json; sourceTree = "<group>"; };
+		F59CE5243008C7BE00F6D1F4 /* AreaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaRow.swift; sourceTree = "<group>"; };
+		F59CE5253008C7BE00F6D1F4 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		F59CE5273008C7BE00F6D1F4 /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
+		F59CE5283008C7BE00F6D1F4 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		F59CE52A3008C7BE00F6D1F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F59CE52C3008C7BE00F6D1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F59CE52D3008C7BE00F6D1F4 /* WeatherNowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNowApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F5366F0D2FF784B70074046C /* WetherNow */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WetherNow;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F5366F082FF784B70074046C /* Frameworks */ = {
@@ -39,7 +53,7 @@
 		F5366F022FF784B70074046C = {
 			isa = PBXGroup;
 			children = (
-				F5366F0D2FF784B70074046C /* WetherNow */,
+				F59CE52E3008C7BE00F6D1F4 /* WeatherNow */,
 				F5366F0C2FF784B70074046C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,9 +61,75 @@
 		F5366F0C2FF784B70074046C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5366F0B2FF784B70074046C /* WetherNow.app */,
+				F5366F0B2FF784B70074046C /* WeatherNow.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F59CE51E3008C7BE00F6D1F4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F59CE51D3008C7BE00F6D1F4 /* WeatherFecher.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F59CE5213008C7BE00F6D1F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F59CE51F3008C7BE00F6D1F4 /* ModelData.swift */,
+				F59CE5203008C7BE00F6D1F4 /* WeatherData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F59CE5233008C7BE00F6D1F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F59CE5223008C7BE00F6D1F4 /* wetherData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F59CE5263008C7BE00F6D1F4 /* Areas */ = {
+			isa = PBXGroup;
+			children = (
+				F59CE5243008C7BE00F6D1F4 /* AreaRow.swift */,
+				F59CE5253008C7BE00F6D1F4 /* FavoriteButton.swift */,
+			);
+			path = Areas;
+			sourceTree = "<group>";
+		};
+		F59CE5293008C7BE00F6D1F4 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				F59CE5273008C7BE00F6D1F4 /* WeatherDetail.swift */,
+				F59CE5283008C7BE00F6D1F4 /* WeatherRow.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		F59CE52B3008C7BE00F6D1F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F59CE5263008C7BE00F6D1F4 /* Areas */,
+				F59CE5293008C7BE00F6D1F4 /* Details */,
+				F59CE52A3008C7BE00F6D1F4 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F59CE52E3008C7BE00F6D1F4 /* WeatherNow */ = {
+			isa = PBXGroup;
+			children = (
+				F59CE51E3008C7BE00F6D1F4 /* API */,
+				F59CE5213008C7BE00F6D1F4 /* Models */,
+				F59CE5233008C7BE00F6D1F4 /* Resources */,
+				F59CE52B3008C7BE00F6D1F4 /* Views */,
+				F59CE52C3008C7BE00F6D1F4 /* Assets.xcassets */,
+				F59CE52D3008C7BE00F6D1F4 /* WeatherNowApp.swift */,
+			);
+			path = WeatherNow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,16 +147,13 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				F5366F0D2FF784B70074046C /* WetherNow */,
-			);
 			name = WetherNow;
 			packageProductDependencies = (
 				F5DC0448300084320033C5CE /* SDWebImageSwiftUI */,
 				F5DC044B300085AF0033C5CE /* SDWebImageSVGCoder */,
 			);
 			productName = WetherNow;
-			productReference = F5366F0B2FF784B70074046C /* WetherNow.app */;
+			productReference = F5366F0B2FF784B70074046C /* WeatherNow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F5366F062FF784B70074046C /* Build configuration list for PBXProject "WetherNow" */;
+			buildConfigurationList = F5366F062FF784B70074046C /* Build configuration list for PBXProject "WeatherNow" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -122,6 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59CE5383008C7BE00F6D1F4 /* Assets.xcassets in Resources */,
+				F59CE5393008C7BE00F6D1F4 /* wetherData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +211,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59CE52F3008C7BE00F6D1F4 /* WeatherRow.swift in Sources */,
+				F59CE5303008C7BE00F6D1F4 /* WeatherNowApp.swift in Sources */,
+				F59CE5313008C7BE00F6D1F4 /* FavoriteButton.swift in Sources */,
+				F59CE5323008C7BE00F6D1F4 /* WeatherData.swift in Sources */,
+				F59CE5333008C7BE00F6D1F4 /* ModelData.swift in Sources */,
+				F59CE5343008C7BE00F6D1F4 /* WeatherDetail.swift in Sources */,
+				F59CE5353008C7BE00F6D1F4 /* ContentView.swift in Sources */,
+				F59CE5363008C7BE00F6D1F4 /* WeatherFecher.swift in Sources */,
+				F59CE5373008C7BE00F6D1F4 /* AreaRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +365,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hatakeyama.WetherNow;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatakeyama.WeatherNow;
+				PRODUCT_NAME = WeatherNow;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -309,8 +397,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hatakeyama.WetherNow;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatakeyama.WeatherNow;
+				PRODUCT_NAME = WeatherNow;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -324,7 +412,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5366F062FF784B70074046C /* Build configuration list for PBXProject "WetherNow" */ = {
+		F5366F062FF784B70074046C /* Build configuration list for PBXProject "WeatherNow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5366F142FF784B80074046C /* Debug */,

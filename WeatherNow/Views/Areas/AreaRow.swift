@@ -1,5 +1,5 @@
 //
-//  areaRow.swift
+//  AreaRow.swift
 //  WetherNow
 //
 //  Created by hatakeyama.chie on 2026/07/03.
@@ -9,14 +9,13 @@ import SwiftUI
 
 struct AreaRow: View {
   var area: Area
-  
+
   var body: some View {
-    
-    HStack{
+    HStack {
       Text(area.areaName)
-      
+
       Spacer()
-      if area.isFavorite{
+      if area.isFavorite {
         Image(systemName: "heart.fill")
           .foregroundStyle(.pink)
       }
@@ -26,5 +25,5 @@ struct AreaRow: View {
 
 #Preview {
   let modelData = ModelData()
-  AreaRow(area:modelData.areas[0])
+  AreaRow(area: modelData.areas[0])
 }
