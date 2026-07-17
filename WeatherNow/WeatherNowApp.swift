@@ -1,6 +1,6 @@
 //
-//  WetherNowApp.swift
-//  WetherNow
+//  WeatherNowApp.swift
+//  WeatherNow
 //
 //  Created by hatakeyama.chie on 2026/07/03.
 //
