@@ -9,8 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
   @Environment(ModelData.self) var modelData
-  @State private var selectedWeatherData: Area?
-  @State private var searchText = ""
   @State private var isShowFavoriteOnly = false
 
   var filteredAreas: [Area] {
@@ -20,8 +18,8 @@ struct ContentView: View {
   }
 
   var body: some View {
-    NavigationSplitView {
-      List(filteredAreas, selection: $selectedWeatherData) { area in
+    NavigationStack {
+      List(filteredAreas) { area in
         NavigationLink(value: area) {
           AreaRow(area: area)
         }
@@ -41,21 +39,14 @@ struct ContentView: View {
         ToolbarItem(placement: .primaryAction) {
           Toggle(isOn: $isShowFavoriteOnly) {
             Image(systemName: isShowFavoriteOnly ? "heart.fill" : "heart")
-              .foregroundStyle(isShowFavoriteOnly ? .sakura : .gray)
+              .foregroundStyle(isShowFavoriteOnly ? .pink : .gray)
               .imageScale(.large)
           }
           .tint(.clear)
         }
       }
-
-    } detail: {
-      if let selected = selectedWeatherData {
-        NavigationStack {
-          WeatherDetail(area: selected)
-        }
-        .id(selected.id)
-      } else {
-        Text("地域を選んでください")
+      .navigationDestination(for: Area.self) { area in
+        WeatherDetail(area: area)
       }
     }
   }

@@ -20,6 +20,7 @@ struct WeatherDetail: View {
 
     Group {
       if let data = detailData {
+        let _ = print(" [WeatherDetail Visual] データを元にリストを描画: \(data.location.city)")
         List(data.forecasts) { forecast in
           WeatherRow(forecast: forecast)
         }
@@ -49,6 +50,7 @@ struct WeatherDetail: View {
     }
 
     .task(id: area.id) {
+      print(" [Task Start] 通信を開始: \(area.areaName) (Code: \(area.cityCode))")
       detailData = nil
       await loadDetailData()
     }
@@ -57,12 +59,17 @@ struct WeatherDetail: View {
   func loadDetailData() async {
     do {
       let data = try await modelData.loadWeatherData(for: area.cityCode)
+      if Task.isCancelled {
+        return
+      }
+      print(" [Task Success] データの取得に成功しました: \(area.areaName)")
       detailData = data
     } catch {
       if let urlError = error as? URLError, urlError.code == .cancelled {
+        print(" [Task Cancelled] 通信が正常にキャンセルされました: \(area.areaName)")
         return
       }
-      print("エラー：\(error)")
+      print(" [Task Error] エラーが発生しました：\(error) (\(area.areaName))")
     }
   }
 }
